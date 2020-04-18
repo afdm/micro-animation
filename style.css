@@ -64,7 +64,8 @@ form button {
   padding-left: 0.2rem;
 }
 
-form:hover > input {
+form:hover > input,
+form input:focus {
   width: 100%;
   padding: 0 0.8rem;
 }
